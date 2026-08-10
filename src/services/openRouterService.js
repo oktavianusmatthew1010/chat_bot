@@ -2,7 +2,7 @@
 import productKnowledgeService from './productKnowledgeService.js'
 
 const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY
-const OPENROUTER_BASE_URL = import.meta.env.VITE_OPENROUTER_BASE_URL || 'https://openrouter.ai/api/v1'
+const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1'
 
 class OpenRouterService {
   constructor() {
